@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Shubham Kumar</h1>
+      <nav>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="img/image.png" alt="Your Photo">
+    <div class="hero-text">
+      <h2>Hello, I'm Shubham Kumar</h2>
+      <p>I'm Shubham kumar, an Electrical Engineering student at NIT Surat, specializing in programming language like
+        C/C++, Data structure and Frontend development technologies. I leverage my skills in PCB designing to lead
+        innovative projects. Driven by a fervent desire for innovation, I'm excited to collaborate on impactful projects
+        that shape a brighter future. Let's connect and make a difference</p>
+      <div class="socials">
+        <a target="_blank" href="https://github.com/Shubham325-prog">GitHub</a>
+        <a target="_blank"
+          href="https://www.linkedin.com/in/shubham-kumar-08880935a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+        <a href="">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Reactjs</div>
+      <div class="skill">KiCad</div>
+      <div class="skill">STM32</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="img/lineimg.png" alt="Project 1">
+        <div class="project-content">
+          <h3>Line Follower</h3>
+          <p>A line follower is an autonomous robot that detects and follows a visual line, typically a black line on a
+            white surface, using optical or infrared sensors. This basic form of automation is a fundamental project in
+            robotics, used widely for educational purposes and for various industrial applicationsF</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project">
+        <img src="img/linefolower.jpg" alt="Project 2">
+        <div class="project-content">
+          <h3>PCB design</h3>
+          <p>under makernova event i had learned about pcb designing. I had develop line follower, motor driver and
+            manipulator shematic designing using Kicad tool.PCB design is the process of creating a blueprint for a
+            printed circuit board (PCB), the foundation of nearly all electronic devices.
+            engineers and designers create a layout that dictates the placement of electronic components
+            and the conductive pathways (traces) that connect them </p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <div>
+        <p>If you'd like to work together or have any questions, feel free to reach out through the form or email.</p>
+        <p>Email: <strong>youremail@example.com</strong></p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Shubham . All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
